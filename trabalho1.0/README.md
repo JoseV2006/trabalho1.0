@@ -3,6 +3,9 @@
 ## Integrante
 - José Vinícius Ribeiro e Silva
 - Matrícula: 01797856
+- Curso: Analise e Desenvolvimento de Sistemas
+- Matéria: Front End
+- Professor: Renato Freire
 
 ## Tecnologias Utilizadas
 - React
@@ -19,7 +22,7 @@
 - Componentes reutilizáveis
 
 ## Repositório
-[git remote add origin https://github.com/JoseV2006/trabalho1.0.git](git remote add origin https://github.com/JoseV2006/trabalho1.0.git)
+[https://github.com/seunome/mini-todo-app](https://github.com/seunome/mini-todo-app)
 
 ## Prints
 (Adicione prints da aplicação funcionando aqui)
