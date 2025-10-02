@@ -16,22 +16,40 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+
       <h1>Bem Vindo!</h1>
+
       <button onClick={() => setCount((count) => count + 1)}>
-          Clica Aqui! {count}
-        </button>
+        Clica Aqui! {count}
+      </button>
+
       <h1>Lista de Presença React</h1>
       <h2>Aluno: José Vinícius Ribeiro e Silva - 01797856</h2>
-      
-      <h3>Resposta recebida com Sucesso!</h3>
-      <button onClick={() => setCount((count) => count + 1)}>
-          SUCESSO! {count}
-        </button>
-  
 
-        <button onClick={() => setCount((count) => count + 1)}>
-          ERROR! {count}
-        </button>
+      <h3>Resposta recebida com Sucesso!</h3>
+
+      {/* Alerta de sucesso */}
+      <div style={{
+        backgroundColor: 'green',
+        color: 'white',
+        padding: '10px',
+        borderRadius: '5px',
+        margin: '10px 0'
+      }}>
+        ✅ SUCESSO: Tarefa adicionada com sucesso!
+      </div>
+
+      {/* Alerta de erro */}
+      <div style={{
+        backgroundColor: 'red',
+        color: 'white',
+        padding: '10px',
+        borderRadius: '5px',
+        margin: '10px 0'
+      }}>
+        ❌ ERRO: Falha ao adicionar tarefa!
+      </div>
+
       <h3>Lista de Alunos</h3>
       <h4>João Silva</h4>
       <h4>Maria Oliveira</h4>
@@ -40,20 +58,17 @@ function App() {
       <h4>Pedro Lima</h4>
 
       <div className="card">
-
         <p>
-          Disciplina: Front End   
+          Disciplina: Front End<br />
           Professor: Renato Freire
-          </div>
+        </p>
+      </div>
+
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      </p>
-   
     </>
-
   )
 }
 
 export default App
-
