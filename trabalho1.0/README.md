@@ -23,6 +23,3 @@
 
 ## Repositório
 git remote add origin https://github.com/JoseV2006/trabalho1.0.git
-
-## Prints
-(Adicione prints da aplicação funcionando aqui)
